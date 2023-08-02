@@ -1,0 +1,21 @@
+{
+  "name": "@rich-ui/icons-svg",
+  "version": "0.0.1",
+  "description": "SVG icon for Rich UI Icons collection.",
+  "keywords": [
+    "icon",
+    "svg",
+    "rich-ui"
+  ],
+  "license": "MIT",
+  "homepage": "https://nanjingcaiyong.github.io/rich-ui/",
+  "files": [
+    "*.svg"
+  ],
+  "scripts": {
+    "optimize": "svgo -f . -o ."
+  },
+  "devDependencies": {
+    "svgo": "^3.0.2"
+  }
+}
